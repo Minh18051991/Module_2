@@ -5,54 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6119bca5-701e-49f0-9d8e-9f702af5d1c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChuyenDoiTienTe.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChuyenDoiTienTe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DocSoThanhChu/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DocSoThanhChu/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DocSoThanhChu/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DocSoThanhChu/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DocSoThanhChu/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DocSoThanhChu/DocSoThanhChu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DocSoThanhChu/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DocSoThanhChu/src/NumberToWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hien_thi_loi_chao/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hien_thi_loi_chao/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hien_thi_loi_chao/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hien_thi_loi_chao/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hien_thi_loi_chao/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hien_thi_loi_chao/hien_thi_loi_chao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hien_thi_loi_chao/src/HienThiLoiChao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hien_thi_loi_chao/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/day-of-month/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/day-of-month/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/day-of-month/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/day-of-month/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/day-of-month/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/day-of-month/day-of-month.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/day-of-month/src/DayOfMonth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/day-of-month/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/leap-year/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/leap-year/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/leap-year/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/leap-year/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/leap-year/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/leap-year/leap-year.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/leap-year/src/LeapYear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/leap-year/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/system-time/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/system-time/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/system-time/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/system-time/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/system-time/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/system-time/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/system-time/src/SystemTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/system-time/system-time.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../vong_lap_Java/bai_tap/ShapePrinter/src/ShapePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../introduce_Java/bai_tap/DocSoThanhChu/src/NumberToWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../introduce_Java/bai_tap/DocSoThanhChu/src/NumberToWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,29 +24,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2lp8P7ae0nEGvk5FqypNLHsyYLk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ChuyenDoiTienTe.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Codegym/Module 2/bai_tap/ChuyenDoiTienTe/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ChuyenDoiTienTe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Codegym/Module 2/bai_tap/ChuyenDoiTienTe/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725865635606</updated>
       <workItem from="1725865636671" duration="2230000" />
+      <workItem from="1725870867843" duration="839000" />
     </task>
     <servers />
   </component>
