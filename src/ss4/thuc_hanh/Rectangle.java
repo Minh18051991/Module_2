@@ -1,10 +1,10 @@
 package ss4.thuc_hanh;
 
-public class Retangle {
+public class Rectangle {
     double width;
     double height;
 
-    public Retangle(double width, double height) {
+    public Rectangle(double width, double height) {
         this.width = width;
         this.height = height;
     }
@@ -15,6 +15,6 @@ public class Retangle {
         return 2 * width * height;
     }
     public String display() {
-       return "this re"
+       return "this rectangle of area is " + getArea() + " and perimeter is : " + getPerimeter();
     }
 }

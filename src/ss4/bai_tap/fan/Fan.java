@@ -1,4 +1,4 @@
-package ss4.bai_tap.stop_watch;
+package ss4.bai_tap.fan;
 
 public class Fan {
     public static final int SLOW = 1;
@@ -30,7 +30,7 @@ public class Fan {
         fan2.radius = 5.0;
         fan2.color = "blue";
         fan2.on = false;
-        System.out.println(fan1.toString());
-        System.out.println(fan2.toString());
+        System.out.println(fan1);
+        System.out.println(fan2);
     }
 }
