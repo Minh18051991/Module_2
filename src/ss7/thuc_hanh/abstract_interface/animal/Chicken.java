@@ -1,4 +1,6 @@
-package ss7.thuc_hanh.abstract_interface;
+package ss7.thuc_hanh.abstract_interface.animal;
+
+import ss7.thuc_hanh.abstract_interface.edible.Edible;
 
 public class Chicken extends Animal implements Edible {
     @Override
@@ -7,7 +9,7 @@ public class Chicken extends Animal implements Edible {
     }
 
     @Override
-    public void HowToEat() {
-        System.out.println("could be steam");
+    public String HowToEat() {
+       return "could be steam" ;
     }
 }

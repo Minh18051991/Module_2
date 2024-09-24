@@ -1,5 +1,5 @@
-package ss7.thuc_hanh.abstract_interface;
+package ss7.thuc_hanh.abstract_interface.edible;
 
 public interface Edible {
-     void HowToEat();
+     String HowToEat();
 }

@@ -1,5 +1,7 @@
-package ss7.thuc_hanh.abstract_interface;
+package ss7.thuc_hanh.abstract_interface.animal;
 
-public abstract class Animal {
+import ss7.thuc_hanh.abstract_interface.edible.Edible;
+
+public abstract class Animal implements Edible {
     public abstract String speak();
 }
