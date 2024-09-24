@@ -1,10 +1,17 @@
 package ss12;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ProductManager {
-    ArrayList<Product> products = new ArrayList<>();
+   List<Product> products = new LinkedList<>();
+   {
+        addProduct(new Product("P001", "Laptop", 10000));
+        addProduct(new Product("P002", "Smartphone", 50000));
+        addProduct(new Product("P003", "Tablet", 3000));
+    }
+
+
     public void addProduct(Product product) {
         products.add(product);
     }

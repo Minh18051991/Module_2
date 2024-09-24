@@ -5,121 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79132c1-1b21-4b40-bfa4-7225b52f8688" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transport_management/validator/VehicleValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Module 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss1/bai_tap/ChuyenDoiTienTe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss1/bai_tap/ChuyenDoiTienTe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss1/bai_tap/HienThiLoiChao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss1/bai_tap/HienThiLoiChao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss1/bai_tap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss1/bai_tap/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss1/bai_tap/NumberToWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss1/bai_tap/NumberToWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss1/thuc_hanh/DayOfMonth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss1/thuc_hanh/DayOfMonth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss1/thuc_hanh/LeapYear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss1/thuc_hanh/LeapYear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss1/thuc_hanh/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss1/thuc_hanh/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss1/thuc_hanh/SystemTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss1/thuc_hanh/SystemTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/prime_number/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/prime_number/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/prime_number/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/prime_number/PrimeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/prime_number_100/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/prime_number_100/src/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/prime_number_100/src/PrimeNumbersUnder100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/prime_number_100/src/PrimeNumbersUnder100.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/shape_printer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/shape_printer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/shape_printer/ShapePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss2_loop/bai_tap/shape_printer/ShapePrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/AddElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/AddElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/CountCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/CountCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/MaxIn2dArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/MaxIn2dArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/MergeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/MergeArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/MinIn2dArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/MinIn2dArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/RemoveElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/SumOfDiagonal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/SumOfDiagonal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/SumTheCols.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/bai_tap/SumTheCols.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss3/thuc_hanh/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss3/thuc_hanh/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/fan/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/fan/Fan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/quadratic_equation/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/quadratic_equation/QuadraticEquation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/quadratic_equation/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/quadratic_equation/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/stop_watch/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/stop_watch/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/stop_watch/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss4/bai_tap/stop_watch/StopWatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss4/thuc_hanh/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss4/thuc_hanh/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss4/thuc_hanh/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss4/thuc_hanh/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss5/bai_tap/access_modifier/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss5/bai_tap/access_modifier/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss5/bai_tap/access_modifier/TestCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss5/bai_tap/access_modifier/TestCircle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss5/bai_tap/immutable_class/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss5/bai_tap/immutable_class/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss5/bai_tap/immutable_class/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss5/bai_tap/immutable_class/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss5/thuc_hanh/training/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss5/thuc_hanh/training/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss5/thuc_hanh/training/StudenLvl4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss5/thuc_hanh/training/StudenLvl4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss5/thuc_hanh/training/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss5/thuc_hanh/training/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss5/thuc_hanh/training/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss5/thuc_hanh/training/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/circle/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/circle/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/circle/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/circle/Cylinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/circle/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/circle/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_2d_3d/Point2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_2d_3d/Point2d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_2d_3d/Point3d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_2d_3d/Point3d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_2d_3d/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_2d_3d/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_and_moveable_point/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_and_moveable_point/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_and_moveable_point/MoveablePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_and_moveable_point/MoveablePoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_and_moveable_point/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/point_and_moveable_point/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/triangle/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/triangle/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/triangle/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/triangle/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/triangle/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss6/bai_tap/triangle/TriangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/bai_tap/TestMyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/bai_tap/TestMyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/thuc_hanh/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/thuc_hanh/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/thuc_hanh/TestMyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/thuc_hanh/TestMyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11/bai_tap/check_palindrome/CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11/bai_tap/check_palindrome/CheckPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11/bai_tap/dao_nguoc_phan_tu/ReserveArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11/bai_tap/dao_nguoc_phan_tu/ReserveArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11/bai_tap/dao_nguoc_phan_tu/ReserveString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11/bai_tap/dao_nguoc_phan_tu/ReserveString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11/bai_tap/decimal_binary/DecimalToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11/bai_tap/decimal_binary/DecimalToBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11/bai_tap/tree_map_count_word/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11/bai_tap/tree_map_count_word/WordCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11/thuc_hanh/stack/GenericStackClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11/thuc_hanh/stack/GenericStackClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11/thuc_hanh/stack/MyGenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11/thuc_hanh/stack/MyGenericStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/bai_tap/colorable/Colorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/bai_tap/colorable/Colorable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/bai_tap/colorable/ColorableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/bai_tap/colorable/ColorableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/bai_tap/resizable/Resizeable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/bai_tap/resizable/Resizeable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/bai_tap/resizable/ResizeableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/bai_tap/resizable/ResizeableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/animal/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/animal/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/animal/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/animal/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/edible/Edible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/edible/Edible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/fruit/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/fruit/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/fruit/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/fruit/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/fruit/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/abstract_interface/fruit/Orange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/CircleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/CircleComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/CircleComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/CircleComparatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/ShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/thuc_hanh/interface_comparable/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/controller/ICustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/controller/ICustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/repository/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/repository/ICustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/service/ICustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/bai_tap/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/bai_tap/view/CustomerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/bai_tap/TriangleClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/bai_tap/TriangleClassifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/bai_tap/TriangleClassifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/bai_tap/TriangleClassifierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/controller/IVehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/controller/IVehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/controller/VehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/model/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/model/Manufacturer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/model/Motocycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/model/Motocycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/model/Oto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/model/Oto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/model/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/model/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/model/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/repository/IVehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/repository/IVehicleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/repository/VehicleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/service/IVehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/service/IVehicleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/service/VehicleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport_management/view/VehicleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/view/VehicleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss12/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss12/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss12/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss12/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss12/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss12/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/ProductManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727085461373</updated>
       <workItem from="1727085464802" duration="1477000" />
-      <workItem from="1727140363271" duration="2396000" />
+      <workItem from="1727140363271" duration="5250000" />
     </task>
     <servers />
   </component>

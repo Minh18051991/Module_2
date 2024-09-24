@@ -22,54 +22,23 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    System.out.print("Enter product ID: ");
-                    String id = sc.next();
-                    System.out.print("Enter product name: ");
-                    String name = sc.next();
-                    System.out.print("Enter product price: ");
-                    double price = sc.nextDouble();
-                    productManager.addProduct(new Product(id, name, price));
-                    System.out.println("Added product successfully!");
+                    addProduct(sc, productManager);
                     break;
 
                 case 2:
-                    System.out.print("Enter product ID to remove: ");
-                    String idToRemove = sc.next();
-                    productManager.removeProduct(idToRemove);
-                    System.out.println("Removed product successfully!");
+                    removeProduct(sc, productManager);
                     break;
 
                 case 3:
-                    System.out.print("Enter product ID to update: ");
-                    String idToUpdate = sc.next();
-                    Product productToUpdate = productManager.findProductById(idToUpdate);
-                    if (productToUpdate != null) {
-                        System.out.print("Enter new product name: ");
-                        productToUpdate.setName(sc.next());
-                        System.out.print("Enter new product price: ");
-                        productToUpdate.setPrice(sc.nextDouble());
-                        productManager.updateProduct(productToUpdate);
-                        System.out.println("Updated product successfully!");
-                    } else {
-                        System.out.println("Product not found!");
-                    }
+                    updateProduct(sc, productManager);
                     break;
 
                 case 4:
-                    List<Product> products = productManager.getAllProducts();
-                    System.out.println("List of products:");
-                    for (Product product : products) {
-                        System.out.println(product);
-                    }
+                    updateProduct(productManager);
                     break;
 
                 case 5:
-                    List<Product> sortedProducts = productManager.getAllProducts();
-                    sortedProducts.sort((p1, p2) -> Double.compare(p2.getPrice(), p1.getPrice()));
-                    System.out.println("List of products sorted by price:");
-                    for (Product product : sortedProducts) {
-                        System.out.println(product);
-                    }
+                    sortProduct(productManager);
                     break;
 
                 case 0:
@@ -82,5 +51,68 @@ public class Main {
                     System.out.println("Invalid choice! Please try again.");
             }
         }
+    }
+
+    private static void sortProduct(ProductManager productManager) {
+        List<Product> sortedProducts = productManager.getAllProducts();
+        sortedProducts.sort((p1, p2) -> Double.compare(p1.getPrice(), p2.getPrice()));
+        System.out.println("List of products sorted by price:");
+        for (Product product : sortedProducts) {
+            System.out.println(product);
+        }
+    }
+
+    private static void updateProduct(ProductManager productManager) {
+        List<Product> products = productManager.getAllProducts();
+        System.out.println("List of products:");
+        for (Product product : products) {
+            System.out.println(product);
+        }
+    }
+
+    private static void updateProduct(Scanner sc, ProductManager productManager) {
+        System.out.print("Enter product ID to update: ");
+        String idToUpdate = sc.next();
+        Product productToUpdate = productManager.findProductById(idToUpdate);
+        if (productToUpdate != null) {
+            System.out.print("Enter new product name: ");
+            productToUpdate.setName(sc.next());
+            System.out.print("Enter new product price: ");
+            productToUpdate.setPrice(sc.nextDouble());
+            productManager.updateProduct(productToUpdate);
+            System.out.println("Updated product successfully!");
+        } else {
+            System.out.println("Product not found!");
+        }
+    }
+
+    private static void removeProduct(Scanner sc, ProductManager productManager) {
+        System.out.println("List of products:");
+        for (Product product : productManager.getAllProducts()) {
+            System.out.println(product);
+        }
+        System.out.print("Enter product ID to remove: ");
+        String idToRemove = sc.next();
+        System.out.println("1. Yes");
+        System.out.println("2. No (Cancel)");
+        System.out.println("Enter your choice: ");
+        int choice = sc.nextInt();
+        if (choice == 1) {
+            productManager.removeProduct(idToRemove);
+            System.out.println("Removed product successfully!");
+        }else {
+            System.out.println("Removal cancelled.");
+        }
+    }
+
+    private static void addProduct(Scanner sc, ProductManager productManager) {
+        System.out.print("Enter product ID: ");
+        String id = sc.next();
+        System.out.print("Enter product name: ");
+        String name = sc.next();
+        System.out.print("Enter product price: ");
+        double price = sc.nextDouble();
+        productManager.addProduct(new Product(id, name, price));
+        System.out.println("Added product successfully!");
     }
 }
