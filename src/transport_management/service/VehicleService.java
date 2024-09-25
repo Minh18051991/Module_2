@@ -1,13 +1,20 @@
 package transport_management.service;
 
 import transport_management.model.Vehicle;
+import transport_management.repository.IVehicleRepository;
 import transport_management.repository.VehicleRepository;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class VehicleService {
-    private final VehicleRepository repository;
+public class VehicleService implements IVehicleService {
+    private final IVehicleRepository repository;
+    public List<Vehicle> getVehiclesByType(String type) {
+        return repository.getAllVehicles().stream()
+                .filter(vehicle -> vehicle.getClass().getSimpleName().equalsIgnoreCase(type))
+                .collect(Collectors.toList());
+    }
 
-    public VehicleService(VehicleRepository repository) {
+    public VehicleService(IVehicleRepository repository) {
         this.repository = repository;
     }
 
@@ -19,10 +26,6 @@ public class VehicleService {
         return repository.getAllVehicles();
     }
 
-    public List<Vehicle> getVehiclesByType(Class<? extends Vehicle> vehicleType) {
-        return repository.getVehiclesByType(vehicleType);
-    }
-
     public Vehicle findVehicleByLicensePlate(String licensePlate) {
         return repository.findVehicleByLicensePlate(licensePlate);
     }
@@ -31,7 +34,12 @@ public class VehicleService {
         repository.updateVehicle(licensePlate, updatedVehicle);
     }
 
-    public void deleteVehicle(String licensePlate) {
-        repository.deleteVehicle(licensePlate);
+    public boolean deleteVehicle(String licensePlate) {
+        Vehicle vehicle = findVehicleByLicensePlate(licensePlate);
+        if (vehicle != null) {
+            repository.deleteVehicle(licensePlate);
+            return true;
+        }
+        return false;
     }
 }

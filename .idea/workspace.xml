@@ -5,13 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79132c1-1b21-4b40-bfa4-7225b52f8688" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13/longest_sorted_string/LongestSortedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13/max_size_string/MaxAscendingSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13/recursive_binary_research/RecursiveBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss12/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss12/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss12/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss12/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss12/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss12/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/controller/IVehicleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/controller/IVehicleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/controller/VehicleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/controller/VehicleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/model/Manufacturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/model/Manufacturer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/model/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/model/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/repository/IVehicleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/repository/IVehicleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/repository/VehicleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/repository/VehicleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/service/IVehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/service/IVehicleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/service/VehicleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/validator/VehicleValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/validator/VehicleValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/view/VehicleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/view/VehicleView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/controller/IVehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/controller/IVehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/controller/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/model/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/model/Manufacturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/repository/IVehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/repository/IVehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/repository/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/service/IVehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/service/IVehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/service/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/validator/VehicleValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/validator/VehicleValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/view/VehicleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/view/VehicleView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,7 +63,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Application.executor": "Run",
+    "Application.CountDuplicateElementInArray.executor": "Run",
+    "Application.LongestSortedString.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxAscendingString.executor": "Run",
+    "Application.MaxAscendingSubstring.executor": "Run",
+    "Application.RecursiveBinary.executor": "Run",
+    "Application.RemoveDuplicateElementsInArray.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -94,7 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727085461373</updated>
       <workItem from="1727085464802" duration="1477000" />
-      <workItem from="1727140363271" duration="5250000" />
+      <workItem from="1727140363271" duration="19488000" />
+      <workItem from="1727226886493" duration="12916000" />
     </task>
     <servers />
   </component>

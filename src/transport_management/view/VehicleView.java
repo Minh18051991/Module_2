@@ -1,12 +1,9 @@
 package transport_management.view;
 
-import transport_management.model.Vehicle;
+import transport_management.model.*;
+
 import java.util.List;
 import java.util.Scanner;
-import transport_management.model.Manufacturer;
-import transport_management.model.Truck;
-import transport_management.model.Oto;
-import transport_management.model.Motocycle;
 
 public class VehicleView {
     private final Scanner scanner = new Scanner(System.in);
@@ -23,11 +20,19 @@ public class VehicleView {
 
     public void displayMenu() {
         System.out.println("Chọn chức năng:");
-        System.out.println("1. Thêm xe");
-        System.out.println("2. Hiển thị xe");
-        System.out.println("3. Cập nhật xe");
-        System.out.println("4. Xóa xe");
+        System.out.println("1. Thêm phương tiện");
+        System.out.println("2. Hiển thị phương tiện");
+        System.out.println("3. Cập nhật phương tiện");
+        System.out.println("4. Xóa phương tiện");
         System.out.println("0. Thoát");
+    }
+    public int inputVehicleTypeSelection() {
+        System.out.println("Chọn loại xe để hiển thị:");
+        System.out.println("1. Oto");
+        System.out.println("2. Motocycle");
+        System.out.println("3. Truck");
+        System.out.print("Nhập lựa chọn: ");
+        return scanner.nextInt();
     }
 
     public Vehicle inputVehicleDetails(String vehicleType) {
@@ -64,5 +69,21 @@ public class VehicleView {
     public String inputLicensePlate() {
         System.out.print("Nhập biển số xe: ");
         return scanner.nextLine();
+    }
+
+    public String inputVehicleType() {
+        System.out.println("Chọn loại xe:");
+        System.out.println("1. Oto");
+        System.out.println("2. Motocycle");
+        System.out.println("3. Truck");
+        System.out.print("Nhập lựa chọn: ");
+        int choice = scanner.nextInt();
+        scanner.nextLine(); // consume newline
+        switch (choice) {
+            case 1: return "Oto";
+            case 2: return "Motocycle";
+            case 3: return "Truck";
+            default: return null;
+        }
     }
 }

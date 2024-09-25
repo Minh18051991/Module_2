@@ -1,12 +1,13 @@
 package transport_management.service;
 
 import transport_management.model.Vehicle;
-import java.util.ArrayList;
+import java.util.List;
 
 public interface IVehicleService {
     void addVehicle(Vehicle vehicle);
-    void displayVehicles();
+    List<Vehicle> getAllVehicles();
+    Vehicle findVehicleByLicensePlate(String licensePlate);
+    void updateVehicle(String licensePlate, Vehicle updatedVehicle);
     boolean deleteVehicle(String licensePlate);
-    ArrayList<Vehicle> searchVehicle(String licensePlate);
-    boolean updateVehicle(String licensePlate, Vehicle updatedVehicle);
+    List<Vehicle> getVehiclesByType(String type);
 }

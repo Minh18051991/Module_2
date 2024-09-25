@@ -4,9 +4,9 @@ import transport_management.model.Vehicle;
 import java.util.ArrayList;
 
 public interface IVehicleController {
-    boolean addVehicle(Vehicle vehicle);
+    void addVehicle();
     void displayVehicles();
-    boolean deleteVehicle(String licensePlate);
-    ArrayList<Vehicle> searchVehicle(String licensePlate);
-    boolean updateVehicle(String licensePlate, Vehicle updatedVehicle);
+    void displayVehiclesByType();
+    void updateVehicle();
+    void deleteVehicle();
 }

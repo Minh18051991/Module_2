@@ -34,7 +34,7 @@ public class Main {
                     break;
 
                 case 4:
-                    updateProduct(productManager);
+                    DisplayList(productManager);
                     break;
 
                 case 5:
@@ -55,14 +55,14 @@ public class Main {
 
     private static void sortProduct(ProductManager productManager) {
         List<Product> sortedProducts = productManager.getAllProducts();
-        sortedProducts.sort((p1, p2) -> Double.compare(p1.getPrice(), p2.getPrice()));
+        sortedProducts.sort((p1, p2) -> Double.compare(p2.getPrice(), p1.getPrice()));
         System.out.println("List of products sorted by price:");
         for (Product product : sortedProducts) {
             System.out.println(product);
         }
     }
 
-    private static void updateProduct(ProductManager productManager) {
+    private static void DisplayList(ProductManager productManager) {
         List<Product> products = productManager.getAllProducts();
         System.out.println("List of products:");
         for (Product product : products) {

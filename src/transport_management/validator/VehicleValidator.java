@@ -1,13 +1,12 @@
 package transport_management.validator;
 
 import transport_management.model.Manufacturer;
-
 import java.util.List;
 
 public class VehicleValidator {
 
     public static boolean isLicensePlateValid(String licensePlate) {
-        return licensePlate != null && licensePlate.matches("^[A-Z0-9]{7}$");
+        return licensePlate != null && licensePlate.matches("^[0-9]{2}[A-Z]-[0-9]{5}$");
     }
 
     public static boolean isYearValid(String year) {

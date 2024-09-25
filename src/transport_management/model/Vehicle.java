@@ -1,5 +1,7 @@
 package transport_management.model;
 
+import transport_management.validator.VehicleValidator;
+
 public abstract class Vehicle {
     private final String licensePlate;
     private final Manufacturer manufacturer;
@@ -7,19 +9,15 @@ public abstract class Vehicle {
     private final String owner;
 
     public Vehicle(String licensePlate, Manufacturer manufacturer, String year, String owner) {
-        validateLicensePlate(licensePlate);
+        if (!VehicleValidator.isLicensePlateValid(licensePlate)) {
+            throw new IllegalArgumentException("License plate is not valid.");
+        }
         validateYear(year);
         validateOwner(owner);
         this.licensePlate = licensePlate;
         this.manufacturer = manufacturer;
         this.year = year;
         this.owner = owner;
-    }
-
-    private void validateLicensePlate(String licensePlate) {
-        if (licensePlate == null || licensePlate.isEmpty()) {
-            throw new IllegalArgumentException("License plate cannot be empty.");
-        }
     }
 
     private void validateYear(String year) {

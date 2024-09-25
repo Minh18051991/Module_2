@@ -1,8 +1,6 @@
 package ss13.max_size_string;
 
 import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeSet;
 
 public class MaxAscendingSubstring {
 
@@ -12,26 +10,25 @@ public class MaxAscendingSubstring {
         System.out.print("Nhập vào một chuỗi bất kỳ: ");
         String input = scanner.nextLine();
 
-        String result = sortedUniqueSubstring(input);
-        System.out.println("Chuỗi ký tự con sắp xếp theo thứ tự từ bé đến lớn là: " + result);
+        String result = findMaxAscendingSubstring(input);
+        System.out.println("Chuỗi con tăng dần lớn nhất là: " + result);
 
         scanner.close();
     }
 
-    private static String sortedUniqueSubstring(String input) {
-        Set<Character> uniqueChars = new TreeSet<>();
+    private static String findMaxAscendingSubstring(String input) {
+        StringBuilder result = new StringBuilder();
 
-        // Thêm các ký tự vào TreeSet để tự động loại bỏ trùng lặp và sắp xếp
-        for (char c : input.toCharArray()) {
-            uniqueChars.add(c);
+        if (input.length() > 0) {
+            result.append(input.charAt(0));  // Bắt đầu từ ký tự đầu tiên
         }
 
-        // Xây dựng chuỗi từ các ký tự duy nhất đã được sắp xếp
-        StringBuilder sortedString = new StringBuilder();
-        for (char c : uniqueChars) {
-            sortedString.append(c);
+        for (int i = 1; i < input.length(); i++) {
+            if (input.charAt(i) > result.charAt(result.length() - 1)) {
+                result.append(input.charAt(i));  // Thêm ký tự nếu lớn hơn ký tự trước đó
+            }
         }
 
-        return sortedString.toString();
+        return result.toString();
     }
 }
