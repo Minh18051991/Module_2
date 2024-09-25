@@ -3,11 +3,12 @@ package transport_management.repository;
 import transport_management.model.Vehicle;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface IVehicleRepository {
     void addVehicle(Vehicle vehicle);
-    boolean deleteVehicle(String licensePlate);
-    ArrayList<Vehicle> searchVehicle(String licensePlate);
-    ArrayList<Vehicle> getAllVehicles();
-    boolean updateVehicle(String licensePlate, Vehicle updatedVehicle);
+    List<Vehicle> getAllVehicles();
+    Vehicle findVehicleByLicensePlate(String licensePlate);
+    void updateVehicle(String licensePlate, Vehicle updatedVehicle);
+    void deleteVehicle(String licensePlate);
 }
