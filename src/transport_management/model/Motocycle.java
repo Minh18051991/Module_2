@@ -15,6 +15,10 @@ public class Motocycle extends Vehicle {
         }
     }
 
+    public int getEnginePower() {
+        return enginePower;
+    }
+
     @Override
     public void displayInfo() {
         System.out.println("Motorcycle: License Plate: " + getLicensePlate() + ", Manufacturer: " + getManufacturer().getName() +

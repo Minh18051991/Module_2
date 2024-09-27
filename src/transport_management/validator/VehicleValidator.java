@@ -9,12 +9,13 @@ public class VehicleValidator {
         return licensePlate != null && licensePlate.matches("^[0-9]{2}[A-Z]-[0-9]{5}$");
     }
 
-    public static boolean isYearValid(String year) {
+    public static void isYearValid(String year) {
         try {
             int yearInt = Integer.parseInt(year);
-            return yearInt > 1885 && yearInt <= java.util.Calendar.getInstance().get(java.util.Calendar.YEAR);
+            if (yearInt > 1885) {
+                java.util.Calendar.getInstance().get(java.util.Calendar.YEAR);
+            }
         } catch (NumberFormatException e) {
-            return false;
         }
     }
 

@@ -38,7 +38,7 @@ public class Application {
                     break;
 
                 case 4:
-                    view.displayVehicles(service.getAllVehicles());
+                    controller.displayVehicles();
                     controller.deleteVehicle();
                     break;
 

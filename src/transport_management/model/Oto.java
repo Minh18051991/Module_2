@@ -12,6 +12,14 @@ public class Oto extends Vehicle {
         this.type = type;
     }
 
+    public int getNumSeats() {
+        return numSeats;
+    }
+
+    public String getType() {
+        return type;
+    }
+
     private void validateNumSeats(int numSeats) {
         if (numSeats <= 0) {
             throw new IllegalArgumentException("Number of seats must be a positive number.");

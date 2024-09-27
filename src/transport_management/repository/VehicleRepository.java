@@ -10,11 +10,11 @@ import java.util.List;
 
 public class VehicleRepository implements IVehicleRepository {
     private final List<Vehicle> vehicles;
-    private final List<Manufacturer> manufacturers;
+    @SuppressWarnings("MismatchedQueryAndUpdateOfCollection")
+    private final List<Manufacturer> manufacturers = new ArrayList<>();
 
     public VehicleRepository() {
         this.vehicles = new ArrayList<>();
-        this.manufacturers = new ArrayList<>();
         initalizeData();
     }
 

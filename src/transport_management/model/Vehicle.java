@@ -12,7 +12,7 @@ public abstract class Vehicle {
         if (!VehicleValidator.isLicensePlateValid(licensePlate)) {
             throw new IllegalArgumentException("License plate is not valid.");
         }
-        validateYear(year);
+        VehicleValidator.isYearValid(year);
         validateOwner(owner);
         this.licensePlate = licensePlate;
         this.manufacturer = manufacturer;

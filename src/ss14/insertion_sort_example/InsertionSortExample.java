@@ -1,3 +1,5 @@
+package ss14.insertion_sort_example;
+
 public class InsertionSortExample {
 
     public static void insertionSort(int[] list) {

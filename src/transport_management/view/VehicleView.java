@@ -31,6 +31,7 @@ public class VehicleView {
         System.out.println("1. Oto");
         System.out.println("2. Motocycle");
         System.out.println("3. Truck");
+        System.out.println("4. Tất cả");
         System.out.print("Nhập lựa chọn: ");
         return scanner.nextInt();
     }
@@ -79,11 +80,11 @@ public class VehicleView {
         System.out.print("Nhập lựa chọn: ");
         int choice = scanner.nextInt();
         scanner.nextLine(); // consume newline
-        switch (choice) {
-            case 1: return "Oto";
-            case 2: return "Motocycle";
-            case 3: return "Truck";
-            default: return null;
-        }
+        return switch (choice) {
+            case 1 -> "Oto";
+            case 2 -> "Motocycle";
+            case 3 -> "Truck";
+            default -> null;
+        };
     }
 }

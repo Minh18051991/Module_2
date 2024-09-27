@@ -21,4 +21,8 @@ public class Truck extends Vehicle {
                 ", Year: " + getYear() + ", Owner: " + getOwner() +
                 ", Load Capacity: " + loadCapacity);
     }
+
+    public String getLoadCapacity() {
+        return String.valueOf(loadCapacity);
+    }
 }

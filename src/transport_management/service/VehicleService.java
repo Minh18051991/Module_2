@@ -1,8 +1,10 @@
 package transport_management.service;
 
+import transport_management.model.Motocycle;
+import transport_management.model.Oto;
+import transport_management.model.Truck;
 import transport_management.model.Vehicle;
 import transport_management.repository.IVehicleRepository;
-import transport_management.repository.VehicleRepository;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,7 +12,12 @@ public class VehicleService implements IVehicleService {
     private final IVehicleRepository repository;
     public List<Vehicle> getVehiclesByType(String type) {
         return repository.getAllVehicles().stream()
-                .filter(vehicle -> vehicle.getClass().getSimpleName().equalsIgnoreCase(type))
+                .filter(vehicle -> switch (type.toLowerCase()) {
+                    case "oto" -> vehicle instanceof Oto;
+                    case "motocycle" -> vehicle instanceof Motocycle;
+                    case "truck" -> vehicle instanceof Truck;
+                    default -> false; // Hoặc có thể ném ngoại lệ nếu loại không hợp lệ
+                })
                 .collect(Collectors.toList());
     }
 
