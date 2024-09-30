@@ -66,10 +66,13 @@ public class GameShopView {
         String manufacturer = scanner.nextLine();
         System.out.print("Nhập nền tảng: ");
         String platform = scanner.nextLine();
+        System.out.print("Nhập số lượng: "); // Thêm số lượng
+        int quantity = scanner.nextInt();
+        scanner.nextLine(); // Đọc dòng trống
         System.out.print("Nhập thể loại (nếu là GameDisc): ");
         String genre = scanner.nextLine();
 
-        GameDisc newDisc = new GameDisc(name, price, manufacturer, platform, genre);
+        GameDisc newDisc = new GameDisc(name, price, false, manufacturer, platform, genre, quantity); // Thêm isRented
         controller.addProduct(newDisc);
     }
 
@@ -100,6 +103,7 @@ public class GameShopView {
             scanner.nextLine(); // Đọc dòng trống
             productToUpdate.setPrice(newPrice);
             controller.updateProduct(productToUpdate);
+            System.out.println("Cập nhật thành công.");
         } else {
             System.out.println("Sản phẩm không tìm thấy để cập nhật.");
         }
@@ -111,6 +115,7 @@ public class GameShopView {
         Product productToDelete = controller.findProductByName(deleteName);
         if (productToDelete != null) {
             controller.deleteProduct(productToDelete);
+            System.out.println("Sản phẩm đã được xóa.");
         } else {
             System.out.println("Sản phẩm không tìm thấy để xóa.");
         }

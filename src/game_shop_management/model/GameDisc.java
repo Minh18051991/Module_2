@@ -1,11 +1,10 @@
 package game_shop_management.model;
 
-
 public class GameDisc extends Product {
     private String genre;
 
-    public GameDisc(String name, double price, String manufacturer, String platform, String genre) {
-        super(name, price, manufacturer, platform);
+    public GameDisc(String name, double price, boolean isRented, String manufacturer, String platform, String genre, int quantity) {
+        super(name, price, isRented, manufacturer, platform, quantity); // Sử dụng constructor chính xác
         this.genre = genre;
     }
 
@@ -15,10 +14,6 @@ public class GameDisc extends Product {
 
     @Override
     public String toString() {
-        return "GameDisc: " + getName() + ", Giá: " + getPrice() + ", Nhà sản xuất: " + getManufacturer() + ", Nền tảng: " + getPlatform() + ", Thể loại: " + genre;
+        return super.toString() + ", Thể loại: " + genre;
     }
 }
-
-
-
-

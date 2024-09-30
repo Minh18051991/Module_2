@@ -6,34 +6,34 @@ import game_shop_management.service.GameShopService;
 import java.util.List;
 
 public class GameShopController {
-    private GameShopService service;
+    private GameShopService repository;
 
-    public GameShopController(GameShopService service) {
-        this.service = service;
+    public GameShopController(GameShopService repository) {
+        this.repository = repository;
     }
 
     // Thêm sản phẩm
     public void addProduct(Product product) {
-        service.addProduct(product);
+        repository.addProduct(product);
     }
 
-    // Lấy tất cả sản phẩm
+    // Lấy danh sách tất cả sản phẩm
     public List<Product> getAllProducts() {
-        return service.getAllProducts();
+        return repository.getAllProducts();
     }
 
     // Tìm sản phẩm theo tên
     public Product findProductByName(String name) {
-        return service.findProductByName(name);
+        return repository.findProductByName(name);
     }
 
     // Cập nhật sản phẩm
     public void updateProduct(Product product) {
-        service.updateProduct(product);
+        repository.updateProduct(product);
     }
 
     // Xóa sản phẩm
     public void deleteProduct(Product product) {
-        service.deleteProduct(product);
+        repository.deleteProduct(product);
     }
 }

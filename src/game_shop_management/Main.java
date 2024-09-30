@@ -1,6 +1,7 @@
 package game_shop_management;
 
 import game_shop_management.controller.GameShopController;
+import game_shop_management.model.*;
 import game_shop_management.repository.GameShopRepository;
 import game_shop_management.service.GameShopService;
 import game_shop_management.view.GameShopView;

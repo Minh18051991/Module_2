@@ -9,7 +9,7 @@ public class GameShopRepository {
     private List<Product> products;
 
     public GameShopRepository() {
-        products = new ArrayList<>();
+        this.products = new ArrayList<>();
     }
 
     public void addProduct(Product product) {
@@ -17,7 +17,7 @@ public class GameShopRepository {
     }
 
     public List<Product> getAllProducts() {
-        return new ArrayList<>(products); // Trả về một bản sao danh sách
+        return new ArrayList<>(products); // Trả về bản sao của danh sách
     }
 
     public Product findProductByName(String name) {
@@ -26,24 +26,14 @@ public class GameShopRepository {
                 return product;
             }
         }
-        System.out.println("Sản phẩm không tìm thấy: " + name);
-        return null;
+        return null; // Không tìm thấy
     }
 
     public void updateProduct(Product product) {
-        int index = products.indexOf(product);
-        if (index != -1) {
-            products.set(index, product);
-        } else {
-            System.out.println("Sản phẩm không tìm thấy để cập nhật.");
-        }
+        // Cập nhật logic ở đây nếu cần
     }
 
     public void deleteProduct(Product product) {
-        if (products.remove(product)) {
-            System.out.println("Sản phẩm đã được xóa.");
-        } else {
-            System.out.println("Sản phẩm không tìm thấy để xóa.");
-        }
+        products.remove(product);
     }
 }

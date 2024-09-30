@@ -5,16 +5,24 @@ public abstract class Product {
     private String name;
     private double price;
     private boolean isRented;
-    private String manufacturer; // Thêm nhà sản xuất
-    private String platform; // Thêm nền tảng
+    private String manufacturer;
+    private String platform;
+    private int quantity;
 
-    public Product(String name, double price, String manufacturer, String platform) {
+    public Product(String name, double price, boolean isRented, String manufacturer, String platform, int quantity) {
         this.name = name;
         this.price = price;
-        this.isRented = false;
+        this.isRented = isRented;
         this.manufacturer = manufacturer;
         this.platform = platform;
+        this.quantity = quantity;
     }
+
+    public Product(String name, double price, boolean isRented, String manufacturer, int quantity) {
+        this(name, price, isRented, manufacturer, "", quantity); // Gọi constructor khác
+    }
+
+    // Getter và setter...
 
     public String getName() {
         return name;
@@ -22,6 +30,30 @@ public abstract class Product {
 
     public double getPrice() {
         return price;
+    }
+
+    public boolean isRented() {
+        return isRented;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public String getPlatform() {
+        return platform;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void rent() {
+        // Logic cho thuê
+    }
+
+    public void returnProduct() {
+        // Logic trả sản phẩm
     }
 
     public void setName(String name) {
@@ -44,33 +76,12 @@ public abstract class Product {
         this.platform = platform;
     }
 
-    public boolean isRented() {
-        return isRented;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
-    public String getManufacturer() {
-        return manufacturer;
-    }
-
-    public String getPlatform() {
-        return platform;
-    }
-
-    public void rent() {
-        if (!isRented) {
-            isRented = true;
-            System.out.println(name + " đã được cho thuê.");
-        } else {
-            System.out.println(name + " hiện đang được cho thuê.");
-        }
-    }
-
-    public void returnProduct() {
-        if (isRented) {
-            isRented = false;
-            System.out.println(name + " đã được trả lại.");
-        } else {
-            System.out.println(name + " không phải là sản phẩm đang thuê.");
-        }
+    @Override
+    public String toString() {
+        return "Tên: " + name + ", Giá: " + price + ", Nhà sản xuất: " + manufacturer + ", Nền tảng: " + platform + ", Số lượng: " + quantity;
     }
 }

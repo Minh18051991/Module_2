@@ -3,8 +3,8 @@ package game_shop_management.model;
 public class GameAccessories extends Product {
     private String accessoryType;
 
-    public GameAccessories(String name, double price, String manufacturer, String platform, String accessoryType) {
-        super(name, price, manufacturer, platform);
+    public GameAccessories(String name, double price, boolean isRented, String manufacturer, String platform, String accessoryType, int quantity) {
+        super(name, price, isRented, manufacturer, platform, quantity); // Sử dụng constructor chính xác
         this.accessoryType = accessoryType;
     }
 
@@ -14,8 +14,6 @@ public class GameAccessories extends Product {
 
     @Override
     public String toString() {
-        return "GameAccessory: " + getName() + ", Giá: " + getPrice() +
-                ", Nhà sản xuất: " + getManufacturer() + ", Nền tảng: " + getPlatform() +
-                ", Loại phụ kiện: " + accessoryType;
+        return super.toString() + ", Loại phụ kiện: " + accessoryType;
     }
 }
