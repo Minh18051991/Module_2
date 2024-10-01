@@ -5,28 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79132c1-1b21-4b40-bfa4-7225b52f8688" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/model/GamingPC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/copy_file/CopyFileText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/copy_file/source.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/read_file/CSVreader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/read_file/country.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/FileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/country.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/controller/GameShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/controller/GameShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameAccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameConsole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameDisc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/repository/GameShopRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/repository/GameShopRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/view/GameShopView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/view/GameShopView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/controller/GameShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/controller/GameShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/GameAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/model/GameAccessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/GameConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/model/GameConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/GameDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/model/GameDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/repository/GameShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/repository/GameShopRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/view/GameShopView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/view/GameShopView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/ss16/read_file/CSVreader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/ss16/read_file/CSVreader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management.rar" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/controller/VehicleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/controller/VehicleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/model/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/model/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/repository/IVehicleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/repository/IVehicleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/repository/VehicleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/repository/VehicleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/service/VehicleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/service/VehicleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/validator/VehicleValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/validator/VehicleValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/transport_management/view/VehicleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/transport_management/view/VehicleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management.rar" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/controller/IVehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/controller/IVehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/controller/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/repository/IVehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/repository/IVehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/repository/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/service/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/validator/VehicleValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/validator/VehicleValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transport_management/view/VehicleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport_management/view/VehicleView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,37 +57,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.CSVreader.executor": "Run",
-    "Application.CopyFileText.executor": "Run",
-    "Application.CountDuplicateElementInArray.executor": "Run",
-    "Application.IllegalTriangleExpressionClass.executor": "Run",
-    "Application.InsertionSortVisualizer.executor": "Run",
-    "Application.LongestSortedString.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MaxAscendingString.executor": "Run",
-    "Application.MaxAscendingSubstring.executor": "Run",
-    "Application.RecursiveBinary.executor": "Run",
-    "Application.RemoveDuplicateElementsInArray.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CSVreader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyFileText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountDuplicateElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileCopy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IllegalTriangleExpressionClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSortVisualizer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSortedString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxAscendingString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxAscendingSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursiveBinary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateElementsInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Codegym\Module 2\src\ss16\copy_file" />
@@ -136,7 +138,15 @@
       <workItem from="1727663305461" duration="482000" />
       <workItem from="1727663822407" duration="194000" />
       <workItem from="1727664027441" duration="52000" />
-      <workItem from="1727664094675" duration="3772000" />
+      <workItem from="1727664094675" duration="5399000" />
+      <workItem from="1727669790696" duration="908000" />
+      <workItem from="1727670717013" duration="2669000" />
+      <workItem from="1727676248402" duration="41000" />
+      <workItem from="1727677044639" duration="111000" />
+      <workItem from="1727677178439" duration="9769000" />
+      <workItem from="1727706744157" duration="27000" />
+      <workItem from="1727706780057" duration="1075000" />
+      <workItem from="1727707871908" duration="1172000" />
     </task>
     <servers />
   </component>

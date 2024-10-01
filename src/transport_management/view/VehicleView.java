@@ -1,12 +1,16 @@
 package transport_management.view;
 
 import transport_management.model.*;
+import transport_management.repository.VehicleRepository;
+import transport_management.validator.VehicleValidator;
 
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
 public class VehicleView {
     private final Scanner scanner = new Scanner(System.in);
+    VehicleRepository vehicleRepository = new VehicleRepository();
 
     public void displayVehicles(List<Vehicle> vehicles) {
         if (vehicles.isEmpty()) {
@@ -17,6 +21,7 @@ public class VehicleView {
             vehicle.displayInfo();
         }
     }
+
 
     public void displayMenu() {
         System.out.println("Chọn chức năng:");
@@ -36,36 +41,139 @@ public class VehicleView {
         return scanner.nextInt();
     }
 
-    public Vehicle inputVehicleDetails(String vehicleType) {
-        System.out.print("Biển số: ");
-        String licensePlate = scanner.nextLine();
-        System.out.print("Nhà sản xuất: ");
-        String manufacturerName = scanner.nextLine();
-        System.out.print("Năm sản xuất: ");
-        String year = scanner.nextLine();
-        System.out.print("Chủ sở hữu: ");
-        String owner = scanner.nextLine();
 
+    public Vehicle inputVehicleDetails(String vehicleType) {
+        Scanner scanner = new Scanner(System.in);
+        String licensePlate;
+        String manufacturerName;
+        String year;
+        String owner;
+
+        // Nhập biển số xe và kiểm tra tính hợp lệ
+        while (true) {
+            System.out.print("Biển số: ");
+            licensePlate = scanner.nextLine();
+            if (VehicleValidator.isLicensePlateValid(licensePlate)) {
+                break; // Biển số hợp lệ, thoát vòng lặp
+            } else {
+                System.out.println("Biển số không hợp lệ. Vui lòng nhập lại.");
+            }
+        }
+
+        manufacturerName = chooseOrAddManufacturer();
+
+        // Nhập năm sản xuất và kiểm tra tính hợp lệ
+        while (true) {
+            System.out.print("Năm sản xuất: ");
+            year = scanner.nextLine();
+            if (VehicleValidator.isYearValid(year)) {
+                break; // Năm hợp lệ, thoát vòng lặp
+            } else {
+                System.out.println("Năm không hợp lệ. Vui lòng nhập lại.");
+            }
+        }
+
+        // Nhập chủ sở hữu
+        System.out.print("Chủ sở hữu: ");
+        owner = scanner.nextLine();
+
+        // Nhập thông tin bổ sung dựa trên loại xe
         if (vehicleType.equalsIgnoreCase("Oto")) {
-            System.out.print("Số chỗ: ");
-            int numSeats = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            int numSeats = 0;
+            while (true) {
+                try {
+                    System.out.print("Số chỗ: ");
+                    numSeats = scanner.nextInt();
+                    scanner.nextLine(); // consume newline
+                    if (VehicleValidator.isNumSeatsValid(numSeats)) {
+                        break; // Số chỗ hợp lệ, thoát vòng lặp
+                    } else {
+                        System.out.println("Số chỗ không hợp lệ. Vui lòng nhập lại.");
+                    }
+                } catch (InputMismatchException e) {
+                    System.out.println("Vui lòng nhập một số hợp lệ.");
+                    scanner.nextLine(); // Xóa bỏ đầu vào không hợp lệ
+                }
+            }
+
             System.out.print("Kiểu: ");
             String type = scanner.nextLine();
             return new Oto(licensePlate, new Manufacturer("Code", manufacturerName, "Country"), year, owner, numSeats, type);
+
         } else if (vehicleType.equalsIgnoreCase("Motocycle")) {
-            System.out.print("Công suất: ");
-            int enginePower = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            int enginePower = 0;
+            while (true) {
+                try {
+                    System.out.print("Công suất: ");
+                    enginePower = scanner.nextInt();
+                    scanner.nextLine(); // consume newline
+                    if (VehicleValidator.isEnginePowerValid(enginePower)) {
+                        break; // Công suất hợp lệ, thoát vòng lặp
+                    } else {
+                        System.out.println("Công suất không hợp lệ. Vui lòng nhập lại.");
+                    }
+                } catch (InputMismatchException e) {
+                    System.out.println("Vui lòng nhập một số hợp lệ.");
+                    scanner.nextLine(); // Xóa bỏ đầu vào không hợp lệ
+                }
+            }
+
             return new Motocycle(licensePlate, new Manufacturer("Code", manufacturerName, "Country"), year, owner, enginePower);
+
         } else if (vehicleType.equalsIgnoreCase("Truck")) {
-            System.out.print("Tải trọng: ");
-            int loadCapacity = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            int loadCapacity = 0;
+            while (true) {
+                try {
+                    System.out.print("Tải trọng: ");
+                    loadCapacity = scanner.nextInt();
+                    scanner.nextLine(); // consume newline
+                    if (VehicleValidator.isLoadCapacityValid(loadCapacity)) {
+                        break; // Tải trọng hợp lệ, thoát vòng lặp
+                    } else {
+                        System.out.println("Tải trọng không hợp lệ. Vui lòng nhập lại.");
+                    }
+                } catch (InputMismatchException e) {
+                    System.out.println("Vui lòng nhập một số hợp lệ.");
+                    scanner.nextLine(); // Xóa bỏ đầu vào không hợp lệ
+                }
+            }
+
             return new Truck(licensePlate, new Manufacturer("Code", manufacturerName, "Country"), year, owner, loadCapacity);
         }
-        return null;
+
+        return null; // Nếu loại xe không hợp lệ
     }
+
+    private String chooseOrAddManufacturer() {
+        // Hiển thị danh sách nhà sản xuất
+        System.out.println("Chọn nhà sản xuất:");
+        List<Manufacturer> manufacturers = vehicleRepository.loadManufacturers(); // Tải danh sách từ file CSV
+        for (int i = 0; i < manufacturers.size(); i++) {
+            System.out.println((i + 1) + ". " + manufacturers.get(i).getName());
+        }
+        System.out.println((manufacturers.size() + 1) + ". Thêm nhà sản xuất mới");
+
+        int choice = scanner.nextInt();
+        scanner.nextLine(); // consume newline
+
+        if (choice > 0 && choice <= manufacturers.size()) {
+            return manufacturers.get(choice - 1).getName();
+        } else {
+            // Thêm nhà sản xuất mới
+            System.out.print("Nhập tên nhà sản xuất mới: ");
+            String newManufacturerName = scanner.nextLine();
+            Manufacturer newManufacturer = new Manufacturer("Code", newManufacturerName, "Country"); // Thay đổi theo yêu cầu
+            addManufacturer(newManufacturer); // Thêm vào danh sách
+            return newManufacturerName;
+        }
+    }
+
+    private void addManufacturer(Manufacturer manufacturer) {
+        // Lưu nhà sản xuất vào danh sách và file CSV
+        VehicleRepository repository = new VehicleRepository(); // Tạo hoặc lấy repository
+        repository.addManufacturer(manufacturer);
+    }
+
 
     public String inputLicensePlate() {
         System.out.print("Nhập biển số xe: ");

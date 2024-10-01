@@ -10,6 +10,11 @@ import java.util.stream.Collectors;
 
 public class VehicleService implements IVehicleService {
     private final IVehicleRepository repository;
+
+    public VehicleService(IVehicleRepository repository) {
+        this.repository = repository;
+    }
+
     public List<Vehicle> getVehiclesByType(String type) {
         return repository.getAllVehicles().stream()
                 .filter(vehicle -> switch (type.toLowerCase()) {
@@ -21,12 +26,8 @@ public class VehicleService implements IVehicleService {
                 .collect(Collectors.toList());
     }
 
-    public VehicleService(IVehicleRepository repository) {
-        this.repository = repository;
-    }
-
     public void addVehicle(Vehicle vehicle) {
-        repository.addVehicle(vehicle);
+        repository.addVehicle(vehicle); // Ghi vào repository (cũng sẽ ghi vào CSV)
     }
 
     public List<Vehicle> getAllVehicles() {
@@ -38,13 +39,13 @@ public class VehicleService implements IVehicleService {
     }
 
     public void updateVehicle(String licensePlate, Vehicle updatedVehicle) {
-        repository.updateVehicle(licensePlate, updatedVehicle);
+        repository.updateVehicle(licensePlate, updatedVehicle); // Cập nhật trong repository
     }
 
     public boolean deleteVehicle(String licensePlate) {
         Vehicle vehicle = findVehicleByLicensePlate(licensePlate);
         if (vehicle != null) {
-            repository.deleteVehicle(licensePlate);
+            repository.deleteVehicle(licensePlate); // Xóa trong repository
             return true;
         }
         return false;

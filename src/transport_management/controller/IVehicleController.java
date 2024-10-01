@@ -9,4 +9,5 @@ public interface IVehicleController {
     void displayVehiclesByType();
     void updateVehicle();
     void deleteVehicle();
+
 }
