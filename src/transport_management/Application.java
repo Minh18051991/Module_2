@@ -33,7 +33,7 @@ public class Application {
                 switch (choice) {
                     case 1:
                         controller.addVehicle();
-                        repository.saveToCSV(CSV_FILE_PATH);
+
                         break;
 
                     case 2:

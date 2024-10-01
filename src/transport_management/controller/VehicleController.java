@@ -27,7 +27,6 @@ public class VehicleController implements IVehicleController {
 
     public void displayVehicles() {
         List<Vehicle> vehicles = service.getAllVehicles();
-
         displayVehiclesList(vehicles);
     }
 

@@ -20,11 +20,6 @@ public abstract class Vehicle {
         this.owner = owner;
     }
 
-    private void validateYear(String year) {
-        if (year == null || !year.matches("\\d{4}")) {
-            throw new IllegalArgumentException("Year must be a 4-digit number.");
-        }
-    }
 
     private void validateOwner(String owner) {
         if (owner == null || owner.isEmpty()) {

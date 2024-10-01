@@ -11,6 +11,5 @@ public interface IVehicleRepository {
     Vehicle findVehicleByLicensePlate(String licensePlate);
     void updateVehicle(String licensePlate, Vehicle updatedVehicle);
     void deleteVehicle(String licensePlate);
-    void saveToCSV(String filePath);
-    void loadFromCSV(String filePath);
+
 }
