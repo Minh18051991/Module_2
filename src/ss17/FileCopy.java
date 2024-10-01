@@ -4,8 +4,8 @@ import java.io.*;
 
 public class FileCopy {
     public static void main(String[] args) {
-        File sourceFile = new File("D:\\Codegym\\Module 2\\src\\ss17\\country.txt");
-        File targetFile = new File("D:\\Codegym\\Module 2\\src\\ss17\\country1.txt");
+        File sourceFile = new File("D:\\Codegym\\Module 2\\src\\ss17\\country.bin");
+        File targetFile = new File("D:\\Codegym\\Module 2\\src\\ss17\\country1.bin");
 
         // Kiểm tra tồn tại của tệp nguồn
         if (!sourceFile.exists()) {
