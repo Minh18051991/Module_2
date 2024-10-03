@@ -39,4 +39,21 @@ public class GameShopService {
         repository.deleteProduct(product);
         System.out.println("Sản phẩm đã được xóa: " + product.getName());
     }
+
+    // Lấy sản phẩm theo loại
+    public List<Product> getProductsByType(String type) {
+        return repository.getProductsType(type);
+    }
+
+    // Lưu tất cả sản phẩm vào file
+    public void saveAllProducts() {
+        repository.saveAllProducts();
+        System.out.println("Tất cả sản phẩm đã được lưu vào file.");
+    }
+
+    // Tải tất cả sản phẩm từ file
+    public void loadAllProducts() {
+        repository.loadAllProducts();
+        System.out.println("Tất cả sản phẩm đã được tải từ file.");
+    }
 }

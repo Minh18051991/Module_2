@@ -45,7 +45,7 @@ public class VehicleService implements IVehicleService {
     public boolean deleteVehicle(String licensePlate) {
         Vehicle vehicle = findVehicleByLicensePlate(licensePlate);
         if (vehicle != null) {
-            repository.deleteVehicle(licensePlate); // Xóa trong repository
+            repository.deleteVehicle(licensePlate);
             return true;
         }
         return false;

@@ -48,12 +48,11 @@ public class VehicleView {
         String year;
         String owner;
 
-        // Nhập biển số xe và kiểm tra tính hợp lệ
         while (true) {
             System.out.print("Biển số: ");
             licensePlate = scanner.nextLine();
             if (VehicleValidator.isLicensePlateValid(licensePlate)) {
-                break; // Biển số hợp lệ, thoát vòng lặp
+                break;
             } else {
                 System.out.println("Biển số không hợp lệ. Vui lòng nhập lại.");
             }

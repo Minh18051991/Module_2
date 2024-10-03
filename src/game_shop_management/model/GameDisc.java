@@ -3,8 +3,9 @@ package game_shop_management.model;
 public class GameDisc extends Product {
     private String genre;
 
-    public GameDisc(String name, double price, boolean isRented, String manufacturer, String platform, String genre, int quantity) {
-        super(name, price, isRented, manufacturer, platform, quantity); // Sử dụng constructor chính xác
+    // Constructor đầy đủ với các tham số cần thiết
+    public GameDisc(String id, String name, double price, boolean isRented, String manufacturer, String platform, String genre, int quantity) {
+        super(id, name, price, isRented, manufacturer, platform, quantity, null, null, 0.0, 0, 0.0); // Gọi constructor của lớp cha
         this.genre = genre;
     }
 
