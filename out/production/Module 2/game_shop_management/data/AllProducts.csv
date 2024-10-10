@@ -1,0 +1,11 @@
+id,name,price,manufacturer,platform,stock,type,CPU,GPU,RAM,storage,storageCapacity,genre
+1,Gaming PC 1,1500.0,Manufacturer A,PC,10,PC,Intel i7,NVIDIA GTX 3080,16GB,1TB SSD
+2,Gaming PC 2,2000.0,Manufacturer B,PC,5,PC,AMD Ryzen 9,NVIDIA RTX 3090,32GB,2TB SSD
+432,Game,437.0,jsdahfjk,pc,3,,16GB,Gaming,Coi7,1TB
+5,Gaming Console 1,400.0,Manufacturer E,Console,20,Console,1TB
+6,Gaming Console 2,500.0,Manufacturer F,Console,10,Console,500GB
+3,Gaming Disc 1,60.0,Manufacturer C,Console,20,Disc,Action
+4,Gaming Disc 2,50.0,Manufacturer D,Console,15,Disc,RPG
+7,Gaming Mouse,80.0,Manufacturer G,PC,50,Accessory,Chuột chơi game với cảm biến cao cấp
+8,Gaming Keyboard,100.0,Manufacturer H,PC,30,Accessory,Bàn phím cơ RGB
+3543,Dkđ,46.0,biazâ,pss5,0,disc,RPG

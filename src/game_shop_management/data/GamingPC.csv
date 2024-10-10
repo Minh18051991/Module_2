@@ -1,5 +1,4 @@
-GamingPC,1,Gaming PC A,1299.99,false,Custom,NVIDIA RTX 3080,Intel i7,16GB,1TB,5
-GamingPC,2,Gaming PC B,999.99,false,Custom,AMD RX 580,AMD Ryzen 5,8GB,512GB,3
-GamingPC,3,Gaming PC C,1499.99,false,Custom,NVIDIA RTX 3090,Intel i9,32GB,2TB,2
-GamingPC,4,Gaming PC D,899.99,false,Custom,Intel UHD 630,Intel i5,8GB,256GB,4
-GamingPC,5,Gaming PC E,1999.99,false,Custom,NVIDIA RTX 3070,Intel i7,16GB,1TB,1
+id,name,price,manufacturer,platform,stock,type,CPU,GPU,RAM,storage
+1,Gaming PC 1,1500.0,Manufacturer A,PC,10,PC,Intel i7,NVIDIA GTX 3080,16GB,1TB SSD
+2,Gaming PC 2,2000.0,Manufacturer B,PC,5,PC,AMD Ryzen 9,NVIDIA RTX 3090,32GB,2TB SSD
+432,Game,437.0,jsdahfjk,pc,3,,16GB,Gaming,Coi7,1TB

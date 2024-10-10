@@ -1,0 +1,6 @@
+id,name,price,stock,manufacturer,warrantyPeriod,warrantyScope,importedCountry,isRepaired
+1,iPhone 14,999.99,10,Apple,1 year,Toàn quốc,,,false
+2,Galaxy S22,799.99,15,Samsung,2 years,Quốc tế,,,false
+3,Nokia 3310,49.99,100,Nokia,,,USA,false
+4,Xiaomi Mi 11,749.99,20,Xiaomi,,,China,true
+5,Google Pixel 6,599.99,30,Google,2 years,Toàn quốc,,,false

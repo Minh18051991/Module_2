@@ -1,0 +1,3 @@
+id,name,price,manufacturer,platform,stock,type,storageCapacity
+5,Gaming Console 1,400.0,Manufacturer E,Console,20,Console,1TB
+6,Gaming Console 2,500.0,Manufacturer F,Console,10,Console,500GB

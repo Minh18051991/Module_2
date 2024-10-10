@@ -1,35 +1,52 @@
 package game_shop_management.model;
 
-public class GamingPC extends Product {
-    private String gpu;
-    private String cpu;
-    private String ram;
-    private int storageInGB; // Lưu dung lượng dưới dạng GB
-    private String deviceType;
+public class GamingPC extends Products {
+    private String CPU;
+    private String GPU;
+    private String RAM;
+    private String storage;
 
-    public GamingPC(String id, String name, double price, boolean isRented, String manufacturer, String gpu, String cpu, String ram, String storage, String deviceType, int quantity) {
-        super(id, name, price, isRented, manufacturer, "Windows", quantity, null, null, 0.0, 0, 0.0); // Gọi constructor của lớp cha
-        this.gpu = gpu;
-        this.cpu = cpu;
-        this.ram = ram;
-        this.storageInGB = convertStorageToGB(storage);
-        this.deviceType = deviceType;
+    public GamingPC(String id, String name, double price, String manufacturer, String platform, int stock, String CPU, String GPU, String RAM,String type,  String storage) {
+        super(id, name, price, manufacturer, platform, stock, type);
+        this.CPU = CPU;
+        this.GPU = GPU;
+        this.RAM = RAM;
+        this.storage = storage;
     }
 
-    private int convertStorageToGB(String storage) {
-        if (storage.endsWith("TB")) {
-            return Integer.parseInt(storage.substring(0, storage.length() - 2)) * 1000; // Chuyển đổi TB thành GB
-        } else if (storage.endsWith("GB")) {
-            return Integer.parseInt(storage.substring(0, storage.length() - 2));
-        }
-        return 0;
+    public String getCPU() {
+        return CPU;
     }
 
+    public void setCPU(String CPU) {
+        this.CPU = CPU;
+    }
+
+    public String getGPU() {
+        return GPU;
+    }
+
+    public void setGPU(String GPU) {
+        this.GPU = GPU;
+    }
+
+    public String getRAM() {
+        return RAM;
+    }
+
+    public void setRAM(String RAM) {
+        this.RAM = RAM;
+    }
+
+    public String getStorage() {
+        return storage;
+    }
+
+    public void setStorage(String storage) {
+        this.storage = storage;
+    }
     @Override
     public String toString() {
-        String storageDisplay = (storageInGB >= 1000)
-                ? (storageInGB / 1000) + "TB"
-                : storageInGB + "GB";
-        return super.toString() + ", GPU: " + gpu + ", CPU: " + cpu + ", RAM: " + ram + ", Dung lượng: " + storageDisplay + ", Loại thiết bị: " + deviceType;
+        return super.toString() + ", CPU: " + CPU + ", GPU: " + GPU + ", RAM: " + RAM + ", Storage: " + storage;
     }
 }
