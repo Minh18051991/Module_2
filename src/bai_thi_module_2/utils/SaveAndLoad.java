@@ -27,18 +27,14 @@ public class SaveAndLoad {
         }
     }
 
-    // Phương thức để tải danh sách điện thoại từ file
     public static List<Mobile> loadMobiles(String filePath) {
         List<Mobile> items = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
-            // Bỏ qua tiêu đề
             reader.readLine();
-
-            // Đọc từng dòng và tạo đối tượng
             while ((line = reader.readLine()) != null) {
                 String[] fields = line.split(",");
-                String type = fields[5]; // Loại điện thoại
+                String type = fields[5];
 
                 Mobile mobile;
                 if ("AuthMobile".equals(type)) {

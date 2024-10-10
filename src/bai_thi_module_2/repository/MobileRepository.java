@@ -22,12 +22,12 @@ public class MobileRepository implements IMobileRepository {
     @Override
     public void addMobile(Mobile mobile) {
         mobiles.add(mobile);
-        SaveAndLoad.saveMobiles(mobiles, filePath); // Lưu ngay sau khi thêm
+        SaveAndLoad.saveMobiles(mobiles, filePath);
     }
 
     @Override
     public List<Mobile> getAllMobiles() {
-        return new ArrayList<>(mobiles); // Trả về bản sao danh sách
+        return new ArrayList<>(mobiles);
     }
 
     @Override
@@ -35,15 +35,15 @@ public class MobileRepository implements IMobileRepository {
         return mobiles.stream()
                 .filter(mobile -> mobile.getId().equals(id))
                 .findFirst()
-                .orElse(null); // Trả về null nếu không tìm thấy
+                .orElse(null);
     }
 
     @Override
     public void updateMobile(String id, Mobile updatedMobile) {
         for (int i = 0; i < mobiles.size(); i++) {
             if (mobiles.get(i).getId().equals(id)) {
-                mobiles.set(i, updatedMobile); // Cập nhật điện thoại
-                SaveAndLoad.saveMobiles(mobiles, filePath); // Lưu ngay sau khi cập nhật
+                mobiles.set(i, updatedMobile);
+                SaveAndLoad.saveMobiles(mobiles, filePath);
                 return;
             }
         }
