@@ -112,27 +112,23 @@ public class MobileView {
         }
     }
 
-    public void deleteMobile()  {
-        System.out.println("Nhập vào id cần xóa :");
+    public void deleteMobile() {
+        System.out.print("Nhập vào ID cần xóa: ");
         String id = scanner.nextLine();
-        System.out.println("bạn có chắc muốn xóa điện thoại có id: " + id);
-        int choice = scanner.nextInt();
+        System.out.println("Bạn có chắc muốn xóa điện thoại có ID: " + id + "? (yes/no)");
+
+        String choice = scanner.nextLine().trim().toLowerCase();
+
         switch (choice) {
-            case 1:
-                if (choice == 1) {
-                    mobileController.deleteMobile(id);
-                    System.out.println("Điện thoại đã xóa thành công.");
-                } else {
-                    System.out.println("bạn đã chọn không xóa điện thoại này");
-                    break;
-                }
+            case "yes":
+                mobileController.deleteMobile(id);
+                System.out.println("Điện thoại đã xóa thành công.");
                 break;
-            case 0:
-                System.out.println("bạn đã chọn không xóa điện thoại này");
+            case "no":
+                System.out.println("Bạn đã chọn không xóa điện thoại này.");
                 break;
             default:
-                System.out.println("lựa chọn không hợp lệ");
-
+                System.out.println("Lựa chọn không hợp lệ.");
         }
     }
 

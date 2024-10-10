@@ -76,6 +76,8 @@ public class MobileRepository implements IMobileRepository {
     public void deleteMobile(String id) {
         if (mobiles.removeIf(mobile -> mobile.getId().equals(id))) {
             SaveAndLoad.saveMobiles(mobiles, filePath);
+        } else {
+            throw new IllegalArgumentException("Không tìm thấy điện thoại với ID: " + id);
         }
     }
 }

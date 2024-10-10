@@ -39,7 +39,7 @@ public class SaveAndLoad {
 
     private static Mobile createMobileFromCSV(String[] parts) {
         if (parts.length < 5) {
-            return null; // Dữ liệu không hợp lệ
+            return null;
         }
 
         String id = parts[0];
@@ -48,7 +48,6 @@ public class SaveAndLoad {
         int stock = Integer.parseInt(parts[3]);
         String manufacturer = parts[4];
 
-        // Kiểm tra loại di động
         if (id.startsWith("A")) {
             String warrantyPeriod = parts[5];
             String warrantyScope = parts[6];

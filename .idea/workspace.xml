@@ -6,16 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a79132c1-1b21-4b40-bfa4-7225b52f8688" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/data/Mobile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/data/Mobile.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/model/AuthMobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/model/AuthMobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/repository/MobileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/repository/MobileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/utils/SaveAndLoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/utils/SaveAndLoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_thi_module_2/data/Mobile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_thi_module_2/data/Mobile.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_thi_module_2/model/AuthMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_thi_module_2/model/AuthMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_thi_module_2/model/ImportedMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_thi_module_2/model/ImportedMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_thi_module_2/model/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_thi_module_2/model/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/view/MobileView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/bai_thi_module_2/view/MobileView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_thi_module_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_thi_module_2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai_thi_module_2/repository/MobileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_thi_module_2/repository/MobileRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai_thi_module_2/utils/SaveAndLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_thi_module_2/utils/SaveAndLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_thi_module_2/view/MobileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_thi_module_2/view/MobileView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +151,7 @@
       <workItem from="1728436407212" duration="33000" />
       <workItem from="1728436462633" duration="10913000" />
       <workItem from="1728459367881" duration="2753000" />
-      <workItem from="1728525836029" duration="10453000" />
+      <workItem from="1728525836029" duration="11183000" />
     </task>
     <servers />
   </component>
