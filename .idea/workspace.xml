@@ -4,107 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a79132c1-1b21-4b40-bfa4-7225b52f8688" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/controller/MobileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/data/Mobile.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/model/AuthMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/model/ImportedMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/model/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/repository/IMobileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/repository/MobileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/service/IMobileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/service/MobileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/utils/SaveAndLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/validate/NotFoundProductException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_thi_module_2/view/MobileView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/controller/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/data/CustomerType.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/data/Customers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/data/Invoice.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/model/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/model/ForeignCustomers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/model/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/model/VNCustomers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/repository/InvoiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/utilities/SaveAndLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/view/CustomerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/electricity_bill_management/view/InvoiceView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/controller/CustomersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/controller/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/controller/ProductsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/data/Customers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/data/GamingAccessories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/data/GamingConsole.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/data/GamingDisc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/data/Invoices.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/data/Users.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/model/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/model/GamingAccessories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/model/GamingConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/model/GamingDisc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/model/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/model/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/repository/customers/CustomersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/repository/customers/ICustomersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/repository/invoice/IInvoiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/repository/invoice/InvoiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/repository/products/IProductsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/repository/products/ProductsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/service/customers/CustomersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/service/customers/ICustomersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/service/invoice/IInvoiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/service/invoice/InvoiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/service/products/IProductsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/service/products/ProductsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/util/EmailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/util/FileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/util/PhoneNumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/validate/InvalidEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/validate/InvalidPhoneNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/validate/InvalidProductException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/view/CustomerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/view/InvoicesView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/view/LoginView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game_shop_management/view/ProductsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/controller/GameShopController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/data/GameAccessories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/data/GameConsole.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/data/GameDisc.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/data/GamingPC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/data/GamingPC.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameAccessories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameConsole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GameDisc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GamingPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/GamingPC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/repository/GameShopRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/service/GameShopService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/utils/SaveAndLoad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module 2/game_shop_management/view/GameShopView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/controller/GameShopController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/data/GameAccessories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/data/GameConsole.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/data/GameDisc.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/data/GamingPC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/data/GamingPC.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/GameAccessories.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/GameConsole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/GameDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/GamingPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_shop_management/model/GamingPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/repository/GameShopRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/service/GameShopService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/utils/SaveAndLoad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_shop_management/view/GameShopView.java" beforeDir="false" />
-    </list>
+    <list default="true" id="a79132c1-1b21-4b40-bfa4-7225b52f8688" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,7 +142,7 @@
       <workItem from="1728436407212" duration="33000" />
       <workItem from="1728436462633" duration="10913000" />
       <workItem from="1728459367881" duration="2753000" />
-      <workItem from="1728525836029" duration="6088000" />
+      <workItem from="1728525836029" duration="6678000" />
     </task>
     <servers />
   </component>

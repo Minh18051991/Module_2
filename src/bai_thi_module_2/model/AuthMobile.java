@@ -36,7 +36,7 @@ public class AuthMobile extends Mobile {
     public String toString() {
         return "AuthMobile{" +
                 "warrantyPeriod='" + warrantyPeriod + '\'' +
-                ", warrantyScope='" + warrantyScope + '\'' + // Sửa tên biến
+                ", warrantyScope='" + warrantyScope + '\'' +
                 "} " + super.toString();
     }
 }
