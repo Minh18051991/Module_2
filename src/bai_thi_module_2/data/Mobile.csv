@@ -1,2 +1,2 @@
-id,name,price,stock,manufacturer,warrantyPeriod,warrantyScope,importedCountry,isRepaired
-1,iPhone 14,999.99,10,Apple,1 year,Toàn quốc,,,false
+A001,iphone 13,699.00,2,apple,365,Quốc tế,,
+B002,Hai Minh,23432.00,234,viet nam,,mỹ,false

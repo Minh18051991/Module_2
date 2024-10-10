@@ -15,7 +15,6 @@ public abstract class Mobile {
         this.manufacturer = manufacturer;
     }
 
-    public Mobile() {}
 
     public String getId() {
         return id;

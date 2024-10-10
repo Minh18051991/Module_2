@@ -9,47 +9,56 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SaveAndLoad {
+    public static List<Mobile> loadMobiles(String filePath) {
+        List<Mobile> mobiles = new ArrayList<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(",");
+                Mobile mobile = createMobileFromCSV(parts);
+                if (mobile != null) {
+                    mobiles.add(mobile);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return mobiles;
+    }
 
-    // Phương thức để lưu danh sách điện thoại vào file
     public static void saveMobiles(List<Mobile> mobiles, String filePath) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
-            String header = "id,name,price,stock,manufacturer,warrantyPeriod,warrantyCoverage,importedCountry,isRepaired";
-            writer.write(header);
-            writer.newLine();
-
             for (Mobile mobile : mobiles) {
                 writer.write(mobile.toCSV());
                 writer.newLine();
             }
-            System.out.println("Dữ liệu đã được lưu vào file: " + filePath);
         } catch (IOException e) {
-            System.err.println("Lỗi khi ghi file: " + e.getMessage());
+            e.printStackTrace();
         }
     }
 
-    public static List<Mobile> loadMobiles(String filePath) {
-        List<Mobile> items = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-            String line;
-            reader.readLine();
-            while ((line = reader.readLine()) != null) {
-                String[] fields = line.split(",");
-                String type = fields[5];
-
-                Mobile mobile;
-                if ("AuthMobile".equals(type)) {
-                    mobile = new AuthMobile(fields[0], fields[1], Double.parseDouble(fields[2]),
-                            Integer.parseInt(fields[3]), fields[4], fields[6], fields[7]);
-                } else {
-                    mobile = new ImportedMobile(fields[0], fields[1], Double.parseDouble(fields[2]),
-                            Integer.parseInt(fields[3]), fields[4], fields[6], Boolean.parseBoolean(fields[7]));
-                }
-                items.add(mobile);
-            }
-            System.out.println("Dữ liệu đã được tải từ file: " + filePath);
-        } catch (IOException e) {
-            System.err.println("Lỗi khi đọc file: " + e.getMessage());
+    private static Mobile createMobileFromCSV(String[] parts) {
+        if (parts.length < 5) {
+            return null; // Dữ liệu không hợp lệ
         }
-        return items;
+
+        String id = parts[0];
+        String name = parts[1];
+        double price = Double.parseDouble(parts[2]);
+        int stock = Integer.parseInt(parts[3]);
+        String manufacturer = parts[4];
+
+        // Kiểm tra loại di động
+        if (id.startsWith("A")) {
+            String warrantyPeriod = parts[5];
+            String warrantyScope = parts[6];
+            return new AuthMobile(id, name, price, stock, manufacturer, warrantyPeriod, warrantyScope);
+        } else if (id.startsWith("B")) {
+            String importedCountry = parts[5];
+            boolean isRepaired = Boolean.parseBoolean(parts[6]);
+            return new ImportedMobile(id, name, price, stock, manufacturer, importedCountry, isRepaired);
+        }
+
+        return null; // Loại di động không hợp lệ
     }
 }

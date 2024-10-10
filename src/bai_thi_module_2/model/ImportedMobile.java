@@ -38,11 +38,6 @@ public class ImportedMobile extends Mobile {
         return "ImportedMobile{" +
                 "importedCountry='" + importedCountry + '\'' +
                 ", status='" + statusMessage + '\'' +
-                ", id='" + getId() + '\'' +
-                ", name='" + getName() + '\'' +
-                ", price=" + getPrice() +
-                ", stock=" + getStock() +
-                ", manufacturer='" + getManufacturer() + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }

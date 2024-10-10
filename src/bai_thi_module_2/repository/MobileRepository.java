@@ -1,5 +1,7 @@
 package bai_thi_module_2.repository;
 
+import bai_thi_module_2.model.AuthMobile;
+import bai_thi_module_2.model.ImportedMobile;
 import bai_thi_module_2.model.Mobile;
 import bai_thi_module_2.utils.SaveAndLoad;
 
@@ -9,18 +11,39 @@ import java.util.List;
 public class MobileRepository implements IMobileRepository {
     private List<Mobile> mobiles;
     private final String filePath = "src/bai_thi_module_2/data/Mobile.csv";
+    private static int currentId = 1;
 
     public MobileRepository() {
         this.mobiles = loadMobiles();
+        updateCurrentId();
     }
 
     private List<Mobile> loadMobiles() {
-        List<Mobile> loadedMobiles = SaveAndLoad.loadMobiles(filePath);
-        return loadedMobiles;
+        return SaveAndLoad.loadMobiles(filePath);
+    }
+
+    private void updateCurrentId() {
+        for (Mobile mobile : mobiles) {
+            int id = Integer.parseInt(mobile.getId().substring(1)); // Lấy phần số trong ID
+            if (id >= currentId) {
+                currentId = id + 1; // Cập nhật ID cuối cùng
+            }
+        }
     }
 
     @Override
     public void addMobile(Mobile mobile) {
+        String newId;
+
+        if (mobile instanceof AuthMobile) {
+            newId = "A" + String.format("%03d", currentId++);
+        } else if (mobile instanceof ImportedMobile) {
+            newId = "B" + String.format("%03d", currentId++);
+        } else {
+            throw new IllegalArgumentException("Loại di động không hợp lệ");
+        }
+
+        mobile.setId(newId); // Gán ID mới cho sản phẩm
         mobiles.add(mobile);
         SaveAndLoad.saveMobiles(mobiles, filePath);
     }
